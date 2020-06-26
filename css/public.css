@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{font:12px "";}
+*{margin:0;padding:0;}
+li{list-style:none;}
+a,s{text-decoration:none;}
+
+
+/*溢出隐藏的三大属性*/
+.over{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+
+
+/*垂直对齐*/
+.valign{text-align:center;}
+.valign img{vertical-align:middle;}
+.valign:after{content:"";display:inline-block;vertical-align:middle;height:100%;}
+
+
+/*清除浮动*/
+.clear:after{content:"";clear:both;display:block;}
+
+/*解决margin-top像父元素传递问题*/
+.clear:before{content:"";display:table;}
+
+
+
+
+
+
+
+
+
+

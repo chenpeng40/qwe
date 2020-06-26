@@ -1,0 +1,715 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="never">
+  <title>百联</title>
+  <style>
+    .divs {width: 1190px;margin: auto; overflow: hidden;} */
+
+    .tables {width: 1190px;border-collapse: collapse;margin: auto;font-size: 12px;color: #666666;
+    }
+
+    a {color: #666666;}
+
+    .thr {background-color: #f3f3f3;color: #666666;font-size: 12px;height: 50px;border: 1px solid #cccccc;}
+
+    [type="checkbox"] {vertical-align: middle;}
+
+    .thr>th:nth-child(1) {width: 60px;}
+
+    .thr>th:nth-child(2) {width: 120px;}
+
+    .thr>th:nth-child(3) { width: 300px;}
+
+    .thr>th:nth-child(4) { width: 180px;}
+
+    .thr>th:nth-child(5) { width: 120px;}
+
+    .thr>th:nth-child(6) { width: 180px;}
+
+    .thr>th:nth-child(7) {width: 120px;}
+
+    a {text-decoration: none;}
+
+    tr {background-color: #fff4e8;border: 1px solid #cccccc;}
+
+
+    .actGotop {position: fixed;bottom: 50px;right: 50px;width: 150px; height: 195px;display: none;z-index: 100;}
+    .actGotop a,.actGotop a:link {width: 80px;height: 95px;display: inline-block;background: url(images/gotop.png) no-repeat;outline: none; background-size:100% 100%;}
+    .actGotop a:hover {width: 80px;height: 95px;background: url(images/gotop.gif) no-repeat;  outline: none; background-size:100% 100%;}
+     
+  </style>
+  <link rel="stylesheet" type="text/css" href="./font_hq147t99uma/iconfont.css">
+  <link rel="stylesheet" href="css/bailian.css">
+  <link rel="stylesheet" href="css/public.css">
+  <link href="./css/main.css" rel="styleSheet">
+  <script src="./js/jquery-1.12.4.js"></script>
+  <script src="./js/jquery.banner.1.0.js"></script>
+</head>
+
+<body>
+    <div class="tools">
+        <div class="margin">
+            <div class="tools-left">
+                <div class="txt">百联集团旗下全渠道电商平台</div>
+                <div class="tools-leftfont">
+                    <span>网站导航</span>
+                    <div class="left-show-dl">
+                        <dl>
+                            <dd><a target="_blank" href="">百联集团官网</a></dd>
+                            <dd><a target="_blank" href="">安付宝网</a></dd>
+                            <dd><a target="_blank" href="">第一医药</a></dd>
+                            <dd><a target="_blank" href="">OK会员卡专区</a></dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="tools-info">
+                <a href=""  target="_blank" class="red-font">消息</a>
+            </div>
+            <div class="tools-right">
+                <ul>
+                    <li id="user_not_login" class="box">
+                        <div class="loginname">
+                            <a class="login-button" href="http://localhost/ship/loginone.html"><i></i><span>请登录</span></a>
+                            <a class="registered" href="http://localhost/ship/login.html">注册</a>
+                        </div>
+                        <b></b>
+                    </li>
+                    <li><div class="tools-leftfont"><a target="_blank" href="">我的订单</a></div></li>
+                    <li>
+                        <div class="tools-leftfont"><a target="_blank" href="http://localhost/ship/goods.html"><span>我的百联</span><i></i></a>
+                            <span class="left-span"></span>
+                            <b></b>
+                            <div class="divshowhdiv">
+                                <dl>
+                                    <dd><a target="_blank" href="">我的订单</a></dd>
+                                    <dd><a target="_blank" href="">我的评价</a></dd>
+                                    <dd><a target="_blank" href="">我的积分</a></dd>
+                                    <dd><a target="_blank" href="">我的收藏</a></dd>
+                                    <dd><a target="_blank" href="">我的优惠券</a></dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tools-leftfont"><a target="_blank" href=""><span>充值缴费</span><i></i></a>
+                            <span class="left-span"></span>
+                            <b></b>
+                            <div class="divshowpay">
+                                <dl class="pay-dl">
+                                    <dd>
+                                        <div class="pay-title">水电煤缴费</div>
+                                        <div class="pay-head">
+                                            <a  href="">缴费首页</a>
+                                            <a  href="">水费缴费</a>
+                                            <a  href="">电费缴费</a>
+                                            <a  href="">燃气缴费</a>
+                                        </div>
+                                    </dd>
+                                    <dd>
+                                        <div class="pay-title">手机充值</div>
+                                        <div class="pay-head">
+                                            <a  href="">手机充值</a>
+                                            </div>
+                                    </dd>
+                                    <dd>
+                                        <div class="pay-title">其他缴费</div>
+                                        <div class="pay-head">
+                                        <a  href="">固话/宽带充值</a>
+                                            <a  href="">铁通缴费</a>
+                                            <a  href="">有线电视缴费</a>
+                                        </div>
+                                    </dd>
+                                    <dd>
+                                        <div class="pay-title">游戏点卡</div>
+                                        <div class="pay-head">
+                                            <a  href="">腾讯Q币充值</a>
+                                            <a  href="">盛大点券充值</a>
+                                            <a  href="">更多游戏</a>
+                                        </div>
+                                    </dd>
+                                    
+                                    </dl>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tools-leftfont"><a href=""><span>客户服务</span><i></i></a>
+                            <span class="left-span"></span>
+                            <b></b>
+                            <div class="divshowhdiv">
+                                <dl>
+                                    <dd><a  href="">在线客服</a></dd>
+                                    <dd><a  href="">帮助中心</a></dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tools-leftfont"><a href=""><span>掌上百联</span><i></i></a>
+                            <span class="left-span"></span>
+                            <b></b>
+                            <div class="divshowpalm">
+                                    <div class="palm-item">
+                                                <span class="palm-item-img"><img src="https://img23.iblimg.com/market-2/images/activity/1807592795.jpg" width="100" height="100"></span>
+                                                <div class="palm-item-line"><apan class="palm-item-title">i百联微信</apan></div>
+                                                <div class="palm-item-line"><apan class="palm-item-message">扫一扫关注</apan></div>
+                                    </div>
+                                    <div class="palm-item">
+                                            <span class="palm-item-img"><img src="https://img22.iblimg.com/market-2/images/activity/1849148942.png" width="100" height="100"></span>
+                                            <div class="palm-item-line"><apan class="palm-item-title">i百联APP</apan></div>
+                                            <div class="palm-item-line"><apan class="palm-item-message">手机购物更方便</apan></div>
+                                    </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tools-leftfont"><a target="_blank" href="https://cart.bl.com"><span>购物车</span></a></div>
+                        <b></b>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <header class="margin">
+        <div class="headerlogo">
+            <div class="logo">
+                <a href=""><img src="https://res11.iblimg.com/respc-1/resources/v4.0/css/i/header-logo.png" alt=""></a>
+            </div>
+            <div class="logotwo">
+                <a href=""><img src="https://img22.iblimg.com/market-4/images/activity/1206413278.jpg" alt=""></a>
+            </div>
+        </div>
+        <div class="headercenter">
+            <div class="top"> 
+                <input type="text" class="text" value="米"/><input type="button" value="搜索" class="botton"/>
+                <ul id="list">
+                    <!-- <li>123132</li>
+                    <li>123132</li>
+                    <li>123132</li> -->
+                </ul>
+            </div>
+            <div class="font">
+                <a href="">兰蔻</a><span>|</span>
+                <a href="">雅诗兰黛</a><span>|</span>
+                <a href="">百联卡</a><span>|</span>
+                <a href="">海蓝之谜</a><span>|</span>
+                <a href="">牛奶</a><span>|</span>
+                <a href="">大米</a><span>|</span>
+                <a href="">面粉</a><span>|</span>
+                <a href="">方便面</a><span>|</span>
+                <a href="">面膜</a><span>|</span>
+            </div>
+        </div>
+        <div class="headerright">
+            <div class="pay"><a href="">安付宝OK卡专区  ></a></div>
+        </div>
+
+    </header>
+    <div id="list" class="margin">
+        <div class="shoplist">
+            <span class="qwe"> 所有商品列表</span>
+            <div class="sl-all">
+                <dl>
+                    <dd><a target="_blank" href="">百货进口 全球购</a></dd>
+                    <dd><a target="_blank" href="">生鲜食品</a></dd>
+                    <dd><a target="_blank" href="">食品粮油</a></dd>
+                    <dd><a target="_blank" href="">美容护理</a></dd>
+                    <dd><a target="_blank" href="">百货进口 全球购</a></dd>
+                    <dd><a target="_blank" href="">生鲜食品</a></dd>
+                    <dd><a target="_blank" href="">食品粮油</a></dd>
+                    <dd><a target="_blank" href="">美容护理</a></dd>
+                    <dd><a target="_blank" href="">百货进口 全球购</a></dd>
+                    <dd><a target="_blank" href="">生鲜食品</a></dd>
+                    <dd><a target="_blank" href="">食品粮油</a></dd>
+                    <dd><a target="_blank" href="">美容护理</a></dd>
+                    <dd><a target="_blank" href="">食品粮油</a></dd>
+                </dl>
+            </div>
+            <ul class="change">
+                <li>
+                    <div class="hh"> 
+                        <b>美妆护肤 > </b><div class="gg"> <span>面膜</span> <span>粉底</span>  <span>bb霜</span> <span>面膜</span> <span>面膜</span> <span>乳液/面霜</span> <span>口红</span> <span>乳液/面霜</span> <span>芦荟</span> <span>乳液/面霜</span> <span>面膜</span> <span>乳液/面霜</span> <span>面膜</span> <span>乳液/面霜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>足疗 > </b><div class="gg"> <span>面膜</span> <span>粉底</span>  <span>bb霜</span> <span>面膜</span> <span>面膜</span> <span>乳液/面霜</span> <span>口红</span> <span>乳液/面霜</span> <span>芦荟</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>婴儿用品 > </b><div class="gg"> <span>面膜</span> <span>粉底</span>  <span>bb霜</span> <span>面膜</span> <span>面膜</span> <span>乳液/面霜</span> <span>口红</span> <span>乳液/面霜</span> <span>芦荟</span> <span>乳液/面霜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>生活用品 > </b><div class="gg"> <span>牙刷</span> <span>牙膏</span>  <span>bb霜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>24百货 > </b><div class="gg"> <span>毛巾</span> <span>粉底</span>  <span>bb霜</span> <span>马桶刷</span> <span>面膜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>全球购 > </b><div class="gg"> <span>皮鞋</span> <span>品保</span>  <span>新加坡特产</span> <span>美国有珠宝</span> <span>泰国水果</span> <span>日本动漫</span> <span>口红</span> <span>乳液/面霜</span> <span>伊朗</span> <span>乳液/面霜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>电器城 > </b><div class="gg"> <span>电饭煲</span> <span>冰箱</span>  <span>电视</span> <span>手机</span> <span>拼版</span>  <span>电视</span></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="hh"> 
+                        <b>24百货 > </b><div class="gg"> <span>毛巾</span> <span>粉底</span>  <span>bb霜</span> <span>马桶刷</span> <span>面膜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>全球购 > </b><div class="gg"> <span>皮鞋</span> <span>品保</span>  <span>新加坡特产</span> <span>美国有珠宝</span> <span>泰国水果</span> <span>日本动漫</span> <span>口红</span> <span>乳液/面霜</span> <span>伊朗</span> <span>乳液/面霜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>电器城 > </b><div class="gg"> <span>电饭煲</span> <span>冰箱</span>  <span>电视</span> <span>手机</span> <span>拼版</span>  <span>电视</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>美妆护肤 > </b><div class="gg"> <span>面膜</span> <span>粉底</span>  <span>bb霜</span> <span>面膜</span> <span>面膜</span> <span>乳液/面霜</span> <span>口红</span> <span>乳液/面霜</span> <span>芦荟</span> <span>乳液/面霜</span> <span>面膜</span> <span>乳液/面霜</span> <span>面膜</span> <span>乳液/面霜</span></div>
+                    </div>
+                
+                    <div class="hh"> 
+                        <b>婴儿用品 > </b><div class="gg"> <span>面膜</span> <span>粉底</span>  <span>bb霜</span> <span>面膜</span> <span>面膜</span> <span>乳液/面霜</span> <span>口红</span> <span>乳液/面霜</span> <span>芦荟</span> <span>乳液/面霜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>生活用品 > </b><div class="gg"> <span>牙刷</span> <span>牙膏</span>  <span>bb霜</span></div>
+                    </div>
+                    
+                </li>
+                <li>
+                    <div class="hh"> 
+                        <b>全球购 > </b><div class="gg"> <span>皮鞋</span> <span>品保</span>  <span>新加坡特产</span> <span>美国有珠宝</span> <span>泰国水果</span> <span>日本动漫</span> <span>口红</span> <span>乳液/面霜</span> <span>伊朗</span> <span>乳液/面霜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>电器城 > </b><div class="gg"> <span>电饭煲</span> <span>冰箱</span>  <span>电视</span> <span>手机</span> <span>拼版</span>  <span>电视</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>24百货 > </b><div class="gg"> <span>毛巾</span> <span>粉底</span>  <span>bb霜</span> <span>马桶刷</span> <span>面膜</span></div>
+                    </div>
+                  
+                </li>
+                <li>
+                    <div class="hh"> 
+                        <b>生活用品 > </b><div class="gg"> <span>牙刷</span> <span>牙膏</span>  <span>bb霜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>24百货 > </b><div class="gg"> <span>毛巾</span> <span>粉底</span>  <span>bb霜</span> <span>马桶刷</span> <span>面膜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>全球购 > </b><div class="gg"> <span>皮鞋</span> <span>品保</span>  <span>新加坡特产</span> <span>美国有珠宝</span> <span>泰国水果</span> <span>日本动漫</span> <span>口红</span> <span>乳液/面霜</span> <span>伊朗</span> <span>乳液/面霜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>电器城 > </b><div class="gg"> <span>电饭煲</span> <span>冰箱</span>  <span>电视</span> <span>手机</span> <span>拼版</span>  <span>电视</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>美妆护肤 > </b><div class="gg"> <span>面膜</span> <span>粉底</span>  <span>bb霜</span> <span>面膜</span> <span>面膜</span> <span>乳液/面霜</span> <span>口红</span> <span>乳液/面霜</span> <span>芦荟</span> <span>乳液/面霜</span> <span>面膜</span> <span>乳液/面霜</span> <span>面膜</span> <span>乳液/面霜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>足疗 > </b><div class="gg"> <span>面膜</span> <span>粉底</span>  <span>bb霜</span> <span>面膜</span> <span>面膜</span> <span>乳液/面霜</span> <span>口红</span> <span>乳液/面霜</span> <span>芦荟</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>婴儿用品 > </b><div class="gg"> <span>面膜</span> <span>粉底</span>  <span>bb霜</span> <span>面膜</span> <span>面膜</span> <span>乳液/面霜</span> <span>口红</span> <span>乳液/面霜</span> <span>芦荟</span> <span>乳液/面霜</span></div>
+                    </div>
+                    
+                </li>
+                <li>
+                    <div class="hh"> 
+                        <b>全球购 > </b><div class="gg"> <span>皮鞋</span> <span>品保</span>  <span>新加坡特产</span> <span>美国有珠宝</span> <span>泰国水果</span> <span>日本动漫</span> <span>口红</span> <span>乳液/面霜</span> <span>伊朗</span> <span>乳液/面霜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>电器城 > </b><div class="gg"> <span>电饭煲</span> <span>冰箱</span>  <span>电视</span> <span>手机</span> <span>拼版</span>  <span>电视</span></div>
+                    </div>
+                
+                    <div class="hh"> 
+                        <b>24百货 > </b><div class="gg"> <span>毛巾</span> <span>粉底</span>  <span>bb霜</span> <span>马桶刷</span> <span>面膜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>全球购 > </b><div class="gg"> <span>皮鞋</span> <span>品保</span>  <span>新加坡特产</span> <span>美国有珠宝</span> <span>泰国水果</span> <span>日本动漫</span> <span>口红</span> <span>乳液/面霜</span> <span>伊朗</span> <span>乳液/面霜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>电器城 > </b><div class="gg"> <span>电饭煲</span> <span>冰箱</span>  <span>电视</span> <span>手机</span> <span>拼版</span>  <span>电视</span></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="hh"> 
+                        <b>24百货 > </b><div class="gg"> <span>毛巾</span> <span>粉底</span>  <span>bb霜</span> <span>马桶刷</span> <span>面膜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>电器城 > </b><div class="gg"> <span>电饭煲</span> <span>冰箱</span>  <span>电视</span> <span>手机</span> <span>拼版</span>  <span>电视</span></div>
+                    </div>
+                    
+                    <div class="hh"> 
+                        <b>婴儿用品 > </b><div class="gg"> <span>面膜</span> <span>粉底</span>  <span>bb霜</span> <span>面膜</span> <span>面膜</span> <span>乳液/面霜</span> <span>口红</span> <span>乳液/面霜</span> <span>芦荟</span> <span>乳液/面霜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>生活用品 > </b><div class="gg"> <span>牙刷</span> <span>牙膏</span>  <span>bb霜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>24百货 > </b><div class="gg"> <span>毛巾</span> <span>粉底</span>  <span>bb霜</span> <span>马桶刷</span> <span>面膜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>全球购 > </b><div class="gg"> <span>皮鞋</span> <span>品保</span>  <span>新加坡特产</span> <span>美国有珠宝</span> <span>泰国水果</span> <span>日本动漫</span> <span>口红</span> <span>乳液/面霜</span> <span>伊朗</span> <span>乳液/面霜</span></div>
+                    </div>
+                  
+                </li>
+                <li>
+                   
+                    <div class="hh"> 
+                        <b>生活用品 > </b><div class="gg"> <span>牙刷</span> <span>牙膏</span>  <span>bb霜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>24百货 > </b><div class="gg"> <span>毛巾</span> <span>粉底</span>  <span>bb霜</span> <span>马桶刷</span> <span>面膜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>全球购 > </b><div class="gg"> <span>皮鞋</span> <span>品保</span>  <span>新加坡特产</span> <span>美国有珠宝</span> <span>泰国水果</span> <span>日本动漫</span> <span>口红</span> <span>乳液/面霜</span> <span>伊朗</span> <span>乳液/面霜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>电器城 > </b><div class="gg"> <span>电饭煲</span> <span>冰箱</span>  <span>电视</span> <span>手机</span> <span>拼版</span>  <span>电视</span></div>
+                    </div>
+                </li>
+                <li>
+                
+                    <div class="hh"> 
+                        <b>足疗 > </b><div class="gg"> <span>面膜</span> <span>粉底</span>  <span>bb霜</span> <span>面膜</span> <span>面膜</span> <span>乳液/面霜</span> <span>口红</span> <span>乳液/面霜</span> <span>芦荟</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>婴儿用品 > </b><div class="gg"> <span>面膜</span> <span>粉底</span>  <span>bb霜</span> <span>面膜</span> <span>面膜</span> <span>乳液/面霜</span> <span>口红</span> <span>乳液/面霜</span> <span>芦荟</span> <span>乳液/面霜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>生活用品 > </b><div class="gg"> <span>牙刷</span> <span>牙膏</span>  <span>bb霜</span></div>
+                    </div>
+                
+                    <div class="hh"> 
+                        <b>电器城 > </b><div class="gg"> <span>电饭煲</span> <span>冰箱</span>  <span>电视</span> <span>手机</span> <span>拼版</span>  <span>电视</span></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="hh"> 
+                        <b>24百货 > </b><div class="gg"> <span>毛巾</span> <span>粉底</span>  <span>bb霜</span> <span>马桶刷</span> <span>面膜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>美妆护肤 > </b><div class="gg"> <span>面膜</span> <span>粉底</span>  <span>bb霜</span> <span>面膜</span> <span>面膜</span> <span>乳液/面霜</span> <span>口红</span> <span>乳液/面霜</span> <span>芦荟</span> <span>乳液/面霜</span> <span>面膜</span> <span>乳液/面霜</span> <span>面膜</span> <span>乳液/面霜</span></div>
+                    </div>
+            
+                    <div class="hh"> 
+                        <b>生活用品 > </b><div class="gg"> <span>牙刷</span> <span>牙膏</span>  <span>bb霜</span></div>
+                    </div>
+                   
+                   
+                    <div class="hh"> 
+                        <b>电器城 > </b><div class="gg"> <span>电饭煲</span> <span>冰箱</span>  <span>电视</span> <span>手机</span> <span>拼版</span>  <span>电视</span></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="hh"> 
+                        <b>足疗 > </b><div class="gg"> <span>面膜</span> <span>粉底</span>  <span>bb霜</span> <span>面膜</span> <span>面膜</span> <span>乳液/面霜</span> <span>口红</span> <span>乳液/面霜</span> <span>芦荟</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>婴儿用品 > </b><div class="gg"> <span>面膜</span> <span>粉底</span>  <span>bb霜</span> <span>面膜</span> <span>面膜</span> <span>乳液/面霜</span> <span>口红</span> <span>乳液/面霜</span> <span>芦荟</span> <span>乳液/面霜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>生活用品 > </b><div class="gg"> <span>牙刷</span> <span>牙膏</span>  <span>bb霜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>24百货 > </b><div class="gg"> <span>毛巾</span> <span>粉底</span>  <span>bb霜</span> <span>马桶刷</span> <span>面膜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>全球购 > </b><div class="gg"> <span>皮鞋</span> <span>品保</span>  <span>新加坡特产</span> <span>美国有珠宝</span> <span>泰国水果</span> <span>日本动漫</span> <span>口红</span> <span>乳液/面霜</span> <span>伊朗</span> <span>乳液/面霜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>电器城 > </b><div class="gg"> <span>电饭煲</span> <span>冰箱</span>  <span>电视</span> <span>手机</span> <span>拼版</span>  <span>电视</span></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="hh"> 
+                        <b>全球购 > </b><div class="gg"> <span>皮鞋</span> <span>品保</span>  <span>新加坡特产</span> <span>美国有珠宝</span> <span>泰国水果</span> <span>日本动漫</span> <span>口红</span> <span>乳液/面霜</span> <span>伊朗</span> <span>乳液/面霜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>电器城 > </b><div class="gg"> <span>电饭煲</span> <span>冰箱</span>  <span>电视</span> <span>手机</span> <span>拼版</span>  <span>电视</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>美妆护肤 > </b><div class="gg"> <span>面膜</span> <span>粉底</span>  <span>bb霜</span> <span>面膜</span> <span>面膜</span> <span>乳液/面霜</span> <span>口红</span> <span>乳液/面霜</span> <span>芦荟</span> <span>乳液/面霜</span> <span>面膜</span> <span>乳液/面霜</span> <span>面膜</span> <span>乳液/面霜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>足疗 > </b><div class="gg"> <span>面膜</span> <span>粉底</span>  <span>bb霜</span> <span>面膜</span> <span>面膜</span> <span>乳液/面霜</span> <span>口红</span> <span>乳液/面霜</span> <span>芦荟</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>婴儿用品 > </b><div class="gg"> <span>面膜</span> <span>粉底</span>  <span>bb霜</span> <span>面膜</span> <span>面膜</span> <span>乳液/面霜</span> <span>口红</span> <span>乳液/面霜</span> <span>芦荟</span> <span>乳液/面霜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>生活用品 > </b><div class="gg"> <span>牙刷</span> <span>牙膏</span>  <span>bb霜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>24百货 > </b><div class="gg"> <span>毛巾</span> <span>粉底</span>  <span>bb霜</span> <span>马桶刷</span> <span>面膜</span></div>
+                    </div>
+                   
+                </li>
+                <li>
+                    
+                    <div class="hh"> 
+                        <b>婴儿用品 > </b><div class="gg"> <span>面膜</span> <span>粉底</span>  <span>bb霜</span> <span>面膜</span> <span>面膜</span> <span>乳液/面霜</span> <span>口红</span> <span>乳液/面霜</span> <span>芦荟</span> <span>乳液/面霜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>生活用品 > </b><div class="gg"> <span>牙刷</span> <span>牙膏</span>  <span>bb霜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>24百货 > </b><div class="gg"> <span>毛巾</span> <span>粉底</span>  <span>bb霜</span> <span>马桶刷</span> <span>面膜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>全球购 > </b><div class="gg"> <span>皮鞋</span> <span>品保</span>  <span>新加坡特产</span> <span>美国有珠宝</span> <span>泰国水果</span> <span>日本动漫</span> <span>口红</span> <span>乳液/面霜</span> <span>伊朗</span> <span>乳液/面霜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>电器城 > </b><div class="gg"> <span>电饭煲</span> <span>冰箱</span>  <span>电视</span> <span>手机</span> <span>拼版</span>  <span>电视</span></div>
+                    </div>
+                </li>
+                <li>
+                   
+                    <div class="hh"> 
+                        <b>生活用品 > </b><div class="gg"> <span>牙刷</span> <span>牙膏</span>  <span>bb霜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>24百货 > </b><div class="gg"> <span>毛巾</span> <span>粉底</span>  <span>bb霜</span> <span>马桶刷</span> <span>面膜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>全球购 > </b><div class="gg"> <span>皮鞋</span> <span>品保</span>  <span>新加坡特产</span> <span>美国有珠宝</span> <span>泰国水果</span> <span>日本动漫</span> <span>口红</span> <span>乳液/面霜</span> <span>伊朗</span> <span>乳液/面霜</span></div>
+                    </div>
+                    <div class="hh"> 
+                        <b>电器城 > </b><div class="gg"> <span>电饭煲</span> <span>冰箱</span>  <span>电视</span> <span>手机</span> <span>拼版</span>  <span>电视</span></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="listright">
+            <dl>
+                <dd><a target="_blank" href="">生活用品</a></dd>
+                <dd><a target="_blank" href="">24h百货</a></dd>
+                <dd><a target="_blank" href="">全球购</a></dd>
+                <dd><a target="_blank" href="">金品闪购</a></dd>
+                <dd><a target="_blank" href="">电器城</a></dd>
+                <dd><a target="_blank" href="">百联卡</a></dd>
+                <dd><a target="_blank" href="">百联到家</a></dd>
+            </dl>
+        </div>
+    </div>
+    <div id="banner">
+        <div class="margin">
+            <div class="imgbox  banner2">
+                <div class="images">
+                    <a><img src="https://img22.iblimg.com/market-5/images/activity/1997375632.jpg" alt=""></a>
+                    <a><img src="https://img23.iblimg.com/market-4/images/activity/1510720791.jpg" alt=""></a>
+                    <a><img src="https://img22.iblimg.com/market-4/images/activity/971186316.jpg" alt=""></a>
+                    <a><img src="https://img23.iblimg.com/market-4/images/activity/1857586862.jpg" alt=""></a>
+                    <a><img src="https://img23.iblimg.com/market-11/images/activity/1015075813.jpg" alt=""></a>
+                    <a><img src="https://img22.iblimg.com/market-11/images/activity/93452221.jpg" alt=""></a>
+                </div>
+                <div class="btns">
+                    <input type="button" id="left" value="<<<">
+                    <input type="button" id="right" value=">>>">
+                </div>
+            </div>
+            
+[            <div class="msg">
+                <div class="login">
+                    <a href=""><img id="personAvatar" src="https://res13.iblimg.com/respc-1/resources/v3.0/css/i/userpic001.png" width="46" height="46"></a>
+                    <div class="ban_tit_txd">Hi，<span id="memberName">欢迎来到i百联</span><br>
+                        <p class="blogin_a">
+                            <a href="http://localhost/ship/loginone.html">登录</a>
+                            <a href="http://localhost/ship/login.html">注册</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="ban_txta">
+                    <a href="" class="tipa" id="benefits">新人惠来“电”</a>
+                </div>
+                <div class="ban_tit1">
+                    <b>百联快报</b><a href="" target="_blank" class="ban_more">更多&gt;</a>
+                    <ol class="ban_qnew">
+                        <li><a data_wa_type="ad" data_wa_val="510_-_974382_-_1" href="" target="_blank"><span>[必读]</span>信息安全公告</a></li>
+                        <li><a data_wa_type="ad" data_wa_val="510_-_2422847_-_1" href="" target="_blank"><span>[提示]</span>化妆品消费温馨提示</a></li>
+                    </ol>
+                </div>
+                <div class="ban_tit2">
+                    <ul class="ban_life">
+                        <li class="curr">
+                            <a>
+                                <div class="iconfont icon-dingdan1"></div>
+                                <span>手机充值</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a>
+                                <div class="iconfont icon-qianbao-"></div>
+                                <span>宽带充值</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a>
+                                <div class="iconfont icon-qianbao-1"></div>
+                                <span>固话充值</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <div class="iconfont icon-icon-test2"></div>
+                                <span>水费</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="iconfont icon-icon4"></div>
+                                <span>电费</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <div class="iconfont icon-dingdan"></div>
+                                <span>燃气费</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <div class="iconfont icon-icon-test1"></div>
+                                <span>游戏充值</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <div class="iconfont icon-icon3"></div>
+                                <span>有线电视</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <div class="iconfont icon-wode3"></div>
+                                <span>百联卡</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="new-czt">
+        <div class="margin">
+            <div class="cleft">
+               <a href=""> <img src="https://img23.iblimg.com/market-5/images/activity/1528719140.jpg" alt=""></a>
+            </div>
+            <div class="cright">
+                <div class="change_li">
+                    <input type="button" id="left1" value="<<<">
+                    <input type="button" id="right1" value=">>>">
+                </div>
+                <ul>
+                    <li>
+                        <div class="tu"><img src="https://Img.iblimg.com/photo-42/3060/115185026_360x360.jpg" height="140" width="140"></div>
+                        <h4 class="title">光明 优+纯牛奶 250ml*12*2 组合装 送礼</h4>
+                        <div class="priceCon">
+                            <span class="price">￥1099</span>
+                            <span class="oldPrice">￥1318.80</span><br/>
+                            <span class="soldText">已售45%</span>
+                            <a class="button">立即抢购</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="new-tm">
+        <div class="margin">
+            <div class="tleft banner1">
+                <div class="imgbox">
+                    <a href=""> <img src="https://img23.iblimg.com/market-4/images/activity/1005765680.jpg" alt=""></a>
+                    <a href=""> <img src="https://img22.iblimg.com/market-5/images/activity/254854122.jpg" alt=""></a>
+                </div>
+            </div>
+            <div class="tright">
+                <a href=""> <img src="https://img22.iblimg.com/market-5/images/activity/1721484000.jpg" alt=""></a>
+                <a href=""> <img src="https://img23.iblimg.com/market-5/images/activity/472743355.jpg" alt=""></a>
+                <a href=""> <img src="https://img23.iblimg.com/market-5/images/activity/880940502.jpg" alt=""></a>
+                <a href=""> <img src="https://img22.iblimg.com/market-5/images/activity/1459654171.jpg" alt=""></a>
+                <a href=""> <img src="https://img23.iblimg.com/market-4/images/activity/1514963660.jpg" alt=""></a>
+                <a href=""> <img src="https://img22.iblimg.com/market-5/images/activity/572777451.jpg" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <a href="http://localhost/ship/goodslist.html">
+        <div id="shopcar1">
+            <i></i><br/>
+            <span>购<br/>物<br/>车</span><br/>
+            <b id="cartNum">16</b>
+        </div>
+    </a>
+
+  <div class="divs margin">
+
+
+  </div>
+
+  <div class="actGotop"><a href="javascript:;" title="Top"></a></div>
+
+
+  <div class="footer-center">
+    <ul class="public-adlist">
+        <li>
+                <a data_wa_type="ad" data_wa_val="2020666_-_2464725_-_1" href="http://promotion.bl.com/nc/shanghaigongshang_GY002.html?bl_ad=2020666_-_2464725_-_1&amp;bl_mmc=YXTF_-_baiduPC_-_MD1556098276357_-_0" target="_blank"><img src="https://img23.iblimg.com/market-4/images/activity/1237223137.jpg"></a>
+            </li>
+        <li>
+                <a data_wa_type="ad" data_wa_val="2020666_-_2464726_-_1" href="http://promotion.bl.com/nc/shanghaigongshang_GY003.html" target="_blank"><img src="https://img23.iblimg.com/market-4/images/activity/951075255.jpg"></a>
+            </li>
+        <li>
+                <a data_wa_type="ad" data_wa_val="2020666_-_2464727_-_1" href="http://promotion.bl.com/nc/shanghaigongshang_GY004.html" target="_blank"><img src="https://img23.iblimg.com/market-4/images/activity/1425410214.jpg"></a>
+            </li>
+        </ul>
+</div>
+
+<div class="margin">
+<div id="footer" class="footer">
+    <div class="bottom-nav">
+        <div>
+            <a target="_blank" href="">关于我们</a>
+            <span>|</span>
+            <a target="_blank" href="">联系我们</a>
+            <span>|</span>
+            <a target="_blank" href="">加盟合作</a>
+            <span>|</span>
+            <a target="_blank" href="">诚征英才</a>
+            <span>|</span>
+            <a target="_blank" href="">友情链接</a>
+            <span>|</span>
+            <a target="_blank" href="">新零售合作</a>
+        </div>
+        <div class="copyright">百联集团有限公司版权所有 <span>|</span>  客服电话：400-900-8800  <span>|</span> <a href="" target="_blank">沪ICP备15028847号-1</a></div>
+        <a target="_blank" href="" class="drug-message">互联网药品信息服务资质证书编号：沪-（非营业性）-2016-0044</a><br>
+        <a target="_blank" href="" class="drug-message">医疗器械网络交易服务第三方平台备案凭证-（沪）网械平台备字[2020]第00002号</a><br>
+        <a target="_blank" href="" class="drug-message">全渠道增值电信业务经营许可证</a>
+        <div class="police">
+            <a class="gongan" href="" target="_blank">
+                <img src="https://res14.iblimg.com/respc-1/resources/v4.0/css/i/gongan.png">
+                <span style="">沪公网安备  31010102002366号</span>
+            </a>
+            <a class="gongs" href="" target="_blank">
+                <img src="https://res15.iblimg.com/respc-1/resources/v4.1/widget/footer1200/i/gongs.png" width="20" height="21">
+                <span style="">上海工商</span>
+            </a>
+            <a target="_blank" class="zhizhao" href="">
+                <img src="https://res12.iblimg.com/respc-1/resources/v4.1/widget/footer1200/i/zhizhao.png">
+                <span style="">经营执照</span>
+            </a>
+            <a class="wangping" href="">
+                <img src="https://res13.iblimg.com/respc-1/resources/v4.1/widget/footer1200/i/wangjing1.png" width="21">
+                <span style="">网购大家评</span>
+            </a>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+<script type="text/javascript" src="js/lib.js"></script>
+<script src="./js/index.js"></script>
+<script>
+</script>
+
+</html>

@@ -1,0 +1,32 @@
+.margin{width:950px;margin:0 auto;}
+
+a:hover{color: red;}
+body{background: #f9f9f8 !important;}
+
+.header-logo{    margin-top: 29px; height: 57px;}
+.header-logo .fl{float: left;}
+
+.ipt{width: 950px; height: 650px;border: 1px solid #e1dfda; margin-top: 20px; background-color: #fff;}
+.ipt .center-top{    height: 30px;border-bottom: 1px solid #e1dfda;padding: 10px 20px;line-height: 30px;}
+.ipt .center-top .title-1{ font-size: 16px; color: red; padding-right: 580px;}
+.ipt .center-top .title-2{ }
+
+.ipt .center-bottom{padding: 50px 0px 24px 191px;}
+.ipt .center-bottom .loginPerfect-data{padding: 10px 0px; width: 759px;height: 56px;}
+.ipt .center-bottom b{float: left;display: block; width: 136px; text-align: right; font: 15px/56px "";}
+.ipt .center-bottom input{float: left;display: block; width: 302px; height: 36px; margin-top:10px ; padding-left: 10px;}
+.ipt .center-bottom span{float: left;display: none;font: 15px/56px ""; padding-left: 10px;}
+.ipt .center-bottom span img{vertical-align: middle;}
+
+.ipt .loginPerfect-remember{ text-align: center; font: 15px/56px "";}
+.ipt .btn{ width: 300px; height: 36px; background-color:#e6133c; color: #fff; margin-left: 330px; font: 16px/36px ""; border: none;}
+
+
+
+.footer-center{    width: 1100px; margin: 20px auto;}
+.footer-center ul{display: flex;}
+.footer-center ul li{margin: 0 15px;}
+
+#footer{text-align: center;}
+#footer div{padding: 5px;}
+

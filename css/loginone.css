@@ -1,0 +1,35 @@
+.margin{width:950px;margin:0 auto;}
+
+a:hover{color: red;}
+
+.header-logo{    margin-top: 29px; height: 57px;}
+.header-logo .fl{float: left;}
+
+#login{margin:20px auto;width: 1263px;height: 600px;background: url("http://img.iblimg.com/respc-1/resources/v3.0/css/i/login-body.jpg") no-repeat  center bottom;box-sizing: border-box;padding-top: 5px; margin-top: 50px;}
+#login .log_center{    width: 488px;margin: 0 auto;border: 6px solid #e2e2e2;background: #fff;font-family: 'Microsoft YaHei'; height: 548px; padding: 45px 94px; box-sizing: border-box;}
+#login .log_center .login-title{ overflow: hidden; margin-bottom: 30px;}
+#login .log_center .login-title .login-tab-sm1{float: left; width: 140px; height: 20px;line-height: 20px;margin-top: 15px;text-align: left;font-size: 18px;color: #333;border-right: 1px solid #ddd;}
+#login .log_center .login-title .cur{float: left;width: 140px;height: 20px;line-height: 20px;margin-top: 15px; text-align: right;font-size: 18px;color: #333;color: #FF4A4A;font-weight: 700;}
+#login .log_center .loginPerfect-data{padding: 10px 0px; width: 759px;height: 56px;}
+#login .log_center .loginPerfect-data input{float: left;display: block; width: 302px; height: 36px; margin-top:10px ; border:1px solid #ccc; border-radius: 5px; padding-left: 20px;}
+#login .log_center .fr{ margin-top: 20px;}
+#login .log_center .fr a{color: #666; padding-left: 225px;}
+#login .log_center .fr a:hover{color: #08c;}
+#login .log_center .btn{    color: #ffffff; background: #e6133c;font-size: 16px;height: 36px;width: 300px;border-radius: 5px; border: none; margin: 20px auto;}
+#login .log_center .login-title-fr{ color: #08c; padding-right: 100px;}
+#login .log_center .other-login{ margin-top: 10px;}
+#login .log_center .other-login .other-login-bottom{    height: 24px;border-bottom: 1px solid #ddd;text-align: center;line-height: 49px;}
+#login .log_center .other-login span{background: #fff;padding: 0 15px;color: #999;line-height: 49px;}
+#login .log_center .login-logo{overflow: hidden; margin-top: 40px;}
+#login .log_center .login-logo a{    display: inline-block;width: 66px;height: 22px;background-repeat: no-repeat;background-position: center bottom;text-align: center;float: left;margin: 0 15px; overflow: hidden; position: relative;}
+#login .log_center .login-logo a img{position: absolute; top: -22px; left: 0;}
+#login .log_center .login-logo a img:hover{top: 0px;}
+
+
+.footer-center{    width: 1100px; margin: 20px auto;}
+.footer-center ul{display: flex;}
+.footer-center ul li{margin: 0 15px;}
+
+#footer{text-align: center;}
+#footer div{padding: 5px;}
+
